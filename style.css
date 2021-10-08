@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adidas {
+  margin: 50px;
+}
+.line {
+  width: 150px;
+  height: 25px;
+  background-color: black;
+  transform: rotate(55deg);
+  transform-origin: left;
+}
+.line:nth-child(1) {
+  margin-left: 90px;
+}
+.line:nth-child(2) {
+  margin-left: 60px;
+}
+.line:nth-child(3) {
+  margin-left: 30px;
+}
+.adidas_logo {
+  overflow: hidden;
+}
